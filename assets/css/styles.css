@@ -20,7 +20,7 @@ a:hover {
 }
 
 button {
-  display: inline-block;
+  display: display-box;
   margin: 5px;
   cursor: pointer;
   font-size: 100%;
