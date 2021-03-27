@@ -1,6 +1,6 @@
 // variables to keep track of quiz state
 var currentQuestionIndex = 0;
-var time = questions.length * 15;
+var time = questions.length * 17;
 var timerId;
 
 // variables to reference DOM elements
@@ -65,7 +65,7 @@ function questionClick() {
   // check if user guessed wrong
   if (this.value !== questions[currentQuestionIndex].answer) {
     // penalize time
-    time -= 15;
+    time -= 10;
 
     if (time < 0) {
       time = 0;
@@ -77,12 +77,12 @@ function questionClick() {
     // play "wrong" sound effect
     sfxWrong.play();
 
-    feedbackEl.textContent = "Wrong!";
+    feedbackEl.textContent = "Nope!";
   } else {
     // play "right" sound effect
     sfxRight.play();
 
-    feedbackEl.textContent = "Correct!";
+    feedbackEl.textContent = "Yes!";
   }
 
   // flash right/wrong feedback on page for half a second
