@@ -1,13 +1,13 @@
 // list of all questions, choices, and answers
 var questions = [
   {
-    title: "Commonly used data types DO NOT include:",
-    choices: ["strings", "booleans", "alerts", "numbers"],
+    title: "Commonly used data types include all of this except:",
+    choices: ["alerts", "booleans", "numbers", "strings"],
     answer: "alerts"
   },
   {
-    title: "The condition in an if / else statement is enclosed within ____.",
-    choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
+    title: " An if condition is enclosed within ____.",
+    choices: ["curly brackets", "parentheses", "square brackets", "quotes"],
     answer: "parentheses"
   },
   {
