@@ -1,4 +1,4 @@
-In order to satisfy the acceptance criteria I did the following on the present repository.
+In order to satisfy the acceptance criteria, I did the following on the present repository.
 First in the Document Object Module, I created classes and Ids for the start button, timer, top scores, feedback, starter screen, end screen and submit button.
 The DOM was linked to two js files and the css file.
 I created a style file with all the classes mentioned above to create the style of the different elements .ie. color, fonts, border, etc
