@@ -11,9 +11,11 @@ I created a style file with all the classes mentioned above to create the style 
 I also created a logic folder to declare all variables and functions that allow the page to run as requested. 
 A second logic file was created to include questions as titles and an array with all the answer choices.
 Another HTML file was used to create buttons to clear top scores and a "wrapper" class to allow keeping higher scores.
+
 Here is a link to the github pages.
+
  https://ramflorez.github.io/Coding_Quiz/
  
- Here are also snapshots of the coding quiz.
+Here are also snapshots of the coding quiz.
  https://github.com/ramflorez/Coding_Quiz/issues/1#issue-842615742 
  
