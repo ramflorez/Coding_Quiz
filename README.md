@@ -1,3 +1,6 @@
+Coding Quiz
+HTTML,CSS, JS
+ramflorez@yahoo.com
 In order to satisfy the acceptance criteria, I did the following on the present repository.
 First in the Document Object Module, I created classes and Ids for the start button, timer, top scores, feedback, starter screen, end screen and submit button.
 The DOM was linked to two js files and the css file.
